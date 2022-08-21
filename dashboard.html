@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/dashboard.css">
   </head>
   <body>
     <header>
       <a id="logo-link" href="#">
         <img
           id="logo-image"
-          src="https://prog-8.com/assets/packs/dist/images/header_logo-ef0b79c05943d1702565..svg"
+          src="https://assets.website-files.com/5ce3c1c172640601ecf90572/5ce3f78674fe12e255169815_small-logo.png"
           alt="logo"
         />
       </a>
@@ -47,6 +48,195 @@
       </div>
     </header>
 
+    <main>
+      <div class="main-left">
+        <div id="user-stats">
+          <div id="user-profile">
+            <img
+              id="user-avatar"
+              src="https://prog-8.com/assets/default_user_image-147cbfe98d6e858e8ada2bfb2111b29cb325a7441ec3eabe9230355bd8d1d641.jpg"
+              alt="user avatar"
+            />
+
+            <div>
+              <div id="user-name">CAT011Kayondo...</div>
+              <div id="user-level">Lv. 17</div>
+            </div>
+          </div>
+
+          <div class="user-stats-separator"></div>
+
+          <div class="user-completed">
+            <div class="user-completed-stats">
+              <img
+                src="https://prog-8.com/assets/packs/dist/images/lesson-6dd027a7a83c2171523c..svg"
+                alt=""
+              />
+              35
+            </div>
+            <div class="user-completed-label">Exercises Cleared</div>
+          </div>
+
+          <div class="user-stats-separator"></div>
+
+          <div class="user-completed">
+            <div class="user-completed-stats">
+              <img
+                src="https://prog-8.com/assets/packs/dist/images/completed-ribbon-6ef701192c22d265157c..svg"
+                alt=""
+              />
+              2
+            </div>
+            <div class="user-completed-label">Lessons Completed</div>
+          </div>
+        </div>
+        <div class="lessons-in-progress">
+          <h2 class="lessons-stats-title">
+            <img
+              src="https://prog-8.com/assets/packs/dist/images/lesson-6dd027a7a83c2171523c..svg"
+              alt=""
+            />
+            Lessons in Progress
+          </h2>
+          <div class="lessons-toggle-buttons">
+            <div class="lessons-toggle-button">Web</div>
+            <div class="lessons-toggle-button">App</div>
+          </div>
+          <div class="view-all-link">
+            <a href="#">View All ></a>
+          </div>
+          <div class="no-lessons">
+            <p>You are not working on any web lessons.</p>
+            <img
+              src="https://prog-8.com/assets/packs/dist/images/no-in-progress-lessons-5ea0fc13ca0cfaf3e019..png"
+            />
+          </div>
+        </div>
+
+        <div class="lessons-in-progress">
+          <h2 class="lessons-stats-title">
+            <img
+              src="https://prog-8.com/assets/packs/dist/images/lesson-6dd027a7a83c2171523c..svg"
+              alt=""
+            />
+            Completed Lessons
+          </h2>
+          <div class="lessons-toggle-buttons">
+            <div class="lessons-toggle-button">Web</div>
+            <div class="lessons-toggle-button">App</div>
+          </div>
+          <div class="view-all-link">
+            <a href="#">View All ></a>
+          </div>
+          <div class="completed-lessons">
+            <div class="completed-lesson-item git-lesson">
+              <div class="completion-badge-container">
+                <img
+                  src="https://prog-8.com/assets/packs/dist/images/completed-ribbon-6ef701192c22d265157c..svg"
+                />
+              </div>
+              <div class="completed-lesson-info">
+                <div class="lesson-type">Study</div>
+                <div class="lesson-name">Git I</div>
+                <div class="img-container">
+                  <img
+                    src="https://ddb6ltykpq547.cloudfront.net/language/20/icon_for_web/aebe4971bbafe12811039f82bd0c8bb4"
+                    alt=""
+                  />
+                </div>
+                <button>Review</button>
+              </div>
+            </div>
+
+            <div class="completed-lesson-item html-css-lesson">
+              <div class="completion-badge-container">
+                <img
+                  src="https://prog-8.com/assets/packs/dist/images/completed-ribbon-6ef701192c22d265157c..svg"
+                />
+              </div>
+              <div class="completed-lesson-info">
+                <div class="lesson-type">Study</div>
+                <div class="lesson-name">HTML & CSS I</div>
+                <div class="img-container">
+                  <img
+                    src="https://ddb6ltykpq547.cloudfront.net/language/12/icon_for_web/397584acebd8b064d0481c1476e496db"
+                    alt=""
+                  />
+                </div>
+                <button>Review</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-right">
+        <div class="roadmap">
+          <h2>Learning Roadmap</h2>
+          <a href="#" class="roadmap-link">
+            <img
+              src="https://assets.website-files.com/5ce3c1c172640601ecf90572/5ce3f78674fe12e255169815_small-logo.png"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="course-achievements">
+          <h2>Language Course Achievements</h2>
+          <div class="lessons-toggle-buttons">
+            <div class="lessons-toggle-button">Web</div>
+            <div class="lessons-toggle-button">App</div>
+          </div>
+          <div class="language-badges">
+            <div class="badge">
+              <img
+                src="https://prog-8.com/assets/languages/language_badges/git-e6bd7b2906c48b58ae78fc474ac08650be4e9fb223e368ea58981db69c2053e7.svg"
+                alt=""
+              />
+              <div class="badge-text">Git</div>
+            </div>
+
+            <div class="badge">
+              <img
+                src="https://prog-8.com/assets/languages/language_badges/html-3ed2d406d8a31ec5ccf947713af14888c50fc29e90c4dae49ea7a2556c55bcc7.svg"
+                alt=""
+              />
+              <div class="badge-text">HTML & CSS</div>
+            </div>
+
+            <div class="badge">
+              <img
+                src="https://prog-8.com/assets/languages/language_badges/nodejs-5991e1b162ee9963783ba17fbff9fa102f1ac44e206ebbe721757408cbb47020.svg"
+                alt=""
+              />
+              <div class="badge-text">Node.js</div>
+            </div>
+
+            <div class="badge">
+              <img
+                src="https://prog-8.com/assets/languages/language_badges/react-0f136bf165fcdb8892e9433f1df88b67751b0f298d549cbbae2de8b95ab964c1.svg"
+                alt=""
+              />
+              <div class="badge-text">React</div>
+            </div>
+
+            <div class="badge">
+              <img
+                src="https://prog-8.com/assets/languages/language_badges/go-03df941b4731098821180da961dd9676d6070acde2af512dba11249e84aa8310.svg"
+                alt=""
+              />
+              <div class="badge-text">Go</div>
+            </div>
+
+            <div class="badge">
+              <img
+                src="https://prog-8.com/assets/languages/language_badges/es6-0b2c03accda934c9cf2bd1322b43d657e78fce396e61cbc7ec904de47b16ea67.svg"
+                alt=""
+              />
+              <div class="badge-text">JavaScript</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <footer>
       <div id="footer-container">
         <div id="footer-main">
@@ -54,7 +244,7 @@
             <a href="#" id="footer-logo-link">
               <img
                 id="footer-logo-image"
-                src="https://prog-8.com/assets/landing/primary_logo-4d1810538e410b4c6af84210420099ca1772e8cb39013fad8532e499bcdb136e.svg"
+                src="https://assets.website-files.com/5ce3c1c172640601ecf90572/5ce3f78674fe12e255169815_small-logo.png"
                 alt="footer-logo"
               />
             </a>
@@ -103,9 +293,7 @@
             </div>
           </div>
         </div>
-        <p id="footer-copyright">
-          © 2014 Progate, Inc.
-        </p>
+        <p id="footer-copyright">© 2022 Refactory</p>
       </div>
     </footer>
   </body>
