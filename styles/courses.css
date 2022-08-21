@@ -1,0 +1,189 @@
+main {
+  padding: 40px 100px;
+}
+
+.web-courses-title {
+  font-size: 18px;
+}
+
+.web-courses-img {
+  flex: 1;
+  background-image: url("https://d18en44nkeqroq.cloudfront.net/paths/node/top_image.svg");
+  min-width: 260px;
+  height: 296px;
+  border-radius: 3px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.web-courses-feature {
+  display: flex;
+  padding: 50px;
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.09) 0 3px 20px;
+}
+
+.web-courses-feature h1 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.web-courses-feature h3 {
+  font-size: 16px;
+  color: #5876a3;
+  white-space: pre-line;
+}
+
+.skills {
+  display: flex;
+  font-size: 0.75rem;
+  margin: 24px 0 32px;
+}
+
+.skill-count {
+  background-color: rgba(186, 198, 211, 0.18);
+  padding: 16px;
+  border-radius: 3px 0 0 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.skills-list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+  border-radius: 0 3px 3px 0;
+  white-space: nowrap;
+  padding: 16px;
+  padding-bottom: 8px;
+  background-color: rgba(240, 244, 249, 0.6);
+}
+
+.skill-item {
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+.ruby-course-container {
+  margin-top: 20px;
+  display: flex;
+}
+
+.ruby-course {
+  background-color: white;
+  padding: 12px;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.ruby-course .img-container {
+  background-color: #f9fbfe;
+  border-radius: 3px;
+}
+
+.ruby-course .img {
+  background-image: url("https://d18en44nkeqroq.cloudfront.net/paths/rails/top-image.svg");
+  height: 170px;
+  width: auto;
+  border-radius: 3px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.ruby-course .course-name {
+  white-space: pre-line;
+  margin-top: 24px;
+  font-size: 18px;
+}
+
+.ruby-skill-count {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ruby-skill-count img {
+  width: 18px;
+  height: 16px;
+  margin-right: 4px;
+  display: inline-block;
+}
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course-list-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 10px;
+  width: 280px;
+  min-height: 300px;
+  padding: 24px;
+}
+
+.course-list-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #2b546a;
+  font-size: 18px;
+  line-height: 27px;
+  margin: 40px 5px;
+}
+
+.course-list-card .img-wrapper img {
+  width: 100px;
+  height: auto;
+}
+
+.course-list-card .img-wrapper {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-list-card .title {
+  font-size: 1.25rem;
+}
+
+.course-list-card .footnote {
+  font-size: 0.75rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  text-align: center;
+}
+
+.course-list-card .summary {
+    text-align: center;
+}
+
+.all-lessons-link {
+    font-size: 1rem;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.all-lessons-link a {
+    color: blue;
+}
