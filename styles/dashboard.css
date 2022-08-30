@@ -1,262 +1,262 @@
 main {
-    display: flex;
-    gap: 50px;
-    padding: 40px 80px;
-  }
+  display: flex;
+  gap: 50px;
+  padding: 40px 80px;
+}
 
-  .main-left {
-    flex: 1;
-  }
+.main-left {
+  flex: 1;
+}
 
-  .main-right {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    max-width: 300px;
-  }
+.main-right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 300px;
+}
 
-  #user-stats {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    padding: 24px;
-    color: #2b546a;
-    box-shadow: 0 1px 3px rgba(160, 166, 179, 0.3);
-  }
+#user-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  background-image: linear-gradient(85deg, rgb(67, 67, 67), rgb(38, 38, 38));
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(160, 166, 179, 0.3);
+}
 
-  #user-profile {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
+#user-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
 
-  #user-avatar {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
-  }
+#user-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
 
-  #user-name {
-    font-size: 0.875rem;
-  }
+#user-name {
+  font-size: 0.875rem;
+}
 
-  #user-level {
-    font-size: 1.25rem;
-  }
+#user-level {
+  font-size: 1.25rem;
+}
 
-  .user-completed {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-  }
+.user-completed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
 
-  .user-completed-stats {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 2rem;
-    line-height: 1.5rem;
-  }
+.user-completed-stats {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 2rem;
+  line-height: 1.5rem;
+}
 
-  .user-completed-stats img {
-    width: 18px;
-  }
+.user-completed-stats img {
+  width: 18px;
+}
 
-  .user-completed-label {
-    text-align: center;
-    font-size: 0.75rem;
-  }
+.user-completed-label {
+  text-align: center;
+  font-size: 0.75rem;
+}
 
-  .user-stats-separator {
-    background-color: #e9edf4;
-    width: 1px;
-    height: 96px;
-    display: flex;
-  }
+.user-stats-separator {
+  background-color: #e9edf4;
+  width: 1px;
+  height: 96px;
+  display: flex;
+}
 
-  .lessons-stats-title {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    padding: 56px 0 24px 0;
-  }
+.lessons-stats-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 56px 0 24px 0;
+}
 
-  h2 {
-    font-size: 1rem;
-  }
+h2 {
+  font-size: 1rem;
+}
 
-  .lessons-toggle-button {
-    display: flex;
-    align-items: center;
-    height: 30px;
-    font-size: 0.75rem;
-    border-radius: 15px;
-    padding: 0 16px;
-    color: rgba(111, 143, 163, 0.4);
-    cursor: pointer;
-    border: 1px solid #c8d2dd;
-  }
+.lessons-toggle-button {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  font-size: 0.75rem;
+  border-radius: 15px;
+  padding: 0 16px;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #c8d2dd;
+}
 
-  .lessons-toggle-button:first-child {
-    background-color: #c8d2dd;
-    border: none;
-    color: #2b546a;
-  }
+.lessons-toggle-button:first-child {
+  background-color: #c8d2dd;
+  border: none;
+  color: #2b546a;
+}
 
-  .lessons-toggle-buttons {
-    display: flex;
-    gap: 10px;
-  }
+.lessons-toggle-buttons {
+  display: flex;
+  gap: 10px;
+}
 
-  .view-all-link {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 0.75rem;
-  }
+.view-all-link {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.75rem;
+}
 
-  .no-lessons {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: rgba(43, 84, 106, 0.5);
-    font-size: 1.25rem;
-  }
+.no-lessons {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-size: 1.25rem;
+}
 
-  .no-lessons img {
-    width: 160px;
-    height: auto;
-  }
-  .completed-lessons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
+.no-lessons img {
+  width: 160px;
+  height: auto;
+}
+.completed-lessons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
-  .completed-lesson-item {
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    width: 196px;
-    min-height: 277px;
-    padding: 12px 12px 24px;
-    border-radius: 3px;
-  }
+.completed-lesson-item {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  width: 196px;
+  min-height: 277px;
+  padding: 12px 12px 24px;
+  border-radius: 3px;
+}
 
-  .completion-badge-container {
-    align-self: flex-start;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(255, 255, 255);
-    color: rgba(43, 84, 106, 0.7);
-    border-radius: 40px;
-    float: left;
-    font-size: 0.75rem;
-    min-width: 24px;
-    height: 24px;
-  }
-  .completion-badge-container img {
-    width: 12px;
-    height: auto;
-  }
+.completion-badge-container {
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: rgba(43, 84, 106, 0.7);
+  border-radius: 40px;
+  float: left;
+  font-size: 0.75rem;
+  min-width: 24px;
+  height: 24px;
+}
+.completion-badge-container img {
+  width: 12px;
+  height: auto;
+}
 
-  .completed-lesson-info {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.completed-lesson-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .completed-lesson-info .img-container {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.completed-lesson-info .img-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .completed-lesson-info img {
-    height: 85px;
-    width: auto;
-  }
+.completed-lesson-info img {
+  height: 85px;
+  width: auto;
+}
 
-  .git-lesson {
-    background-color: #9bbace;
-  }
+.git-lesson {
+  background-color: #9bbace;
+}
 
-  .html-css-lesson {
-    background-color: #4ccfc9;
-  }
+.html-css-lesson {
+  background-color: #4ccfc9;
+}
 
-  .completed-lesson-info button {
-    font-size: 0.875rem;
-    min-width: 140px;
-    height: 45px;
-    line-height: 45px;
-    cursor: pointer;
-    border: none;
-    background-color: white;
-  }
+.completed-lesson-info button {
+  font-size: 0.875rem;
+  min-width: 140px;
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
 
-  .completed-lesson-info button:hover {
-    color: white;
-  }
+.completed-lesson-info button:hover {
+  color: white;
+}
 
-  .git-lesson button {
-    color: #9bbace;
-  }
+.git-lesson button {
+  color: #9bbace;
+}
 
-  .html-css-lesson button {
-    color: #4ccfc9;
-  }
+.html-css-lesson button {
+  color: #4ccfc9;
+}
 
-  .git-lesson button:hover {
-    background-color: #79a2bd;
-  }
+.git-lesson button:hover {
+  background-color: #79a2bd;
+}
 
-  .html-css-lesson button:hover {
-    background-color: #31b7b1;
-  }
+.html-css-lesson button:hover {
+  background-color: #31b7b1;
+}
 
-  .roadmap-link img {
-    margin-top: 20px;
-    width: 250px;
-    height: auto;
-    background-color: white;
-    padding: 10px;
-    border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 10px;
-  }
+.roadmap-link img {
+  margin-top: 20px;
+  width: 250px;
+  height: auto;
+  background-color: white;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 2px 10px;
+}
 
-  .course-achievements {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
+.course-achievements {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
 
-  .language-badges {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-  }
+.language-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
 
-  .badge {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+.badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .badge img {
-    width: 62px;
-    height: 62px;
-    border-radius: 50%;
-  }
+.badge img {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+}
 
-  .badge-text {
-    text-align: center;
-    color: rgba(43, 84, 106, 0.6);
-    font-size: 0.75rem;
-    margin-top: 4px;
-  }
+.badge-text {
+  text-align: center;
+  color: white;
+  font-size: 0.75rem;
+  margin-top: 4px;
+}
